@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestSuitePractice">
+  <test name="Test">
+    <classes>
+      <class name="seleniumBasic.SuitePractice1"/>
+      <class name="seleniumBasic.SuitePractice"/>
+      <methods>
+      <include name = "t2"/>
+      </methods>
+      
+      <class name="seleniumBasic.SuitePractice2"/>
+      </classes>
+  </test> <!-- Test -->
+</suite> <!-- TestSuitePractice -->
